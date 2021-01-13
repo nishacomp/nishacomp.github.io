@@ -1,0 +1,130 @@
+*
+{
+		padding:0px;
+		margin:0px;
+		font-family:sans-serif;
+		font-weight:bold;
+}
+header
+{
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('../photo/comp.jpg');
+	height:100%;
+	background-size:cover;
+	background-position:center;
+	
+}
+.cmd6
+{
+	Float:right;
+}
+.head
+{
+	background-color:#7771797d;
+	border-radius:2px;
+	padding-left: 36px;
+	font-size:25px;
+}
+.mind
+{
+	height:400px;
+}
+.logo img
+{
+	float:left;
+	height:50px;
+	width:80px;
+    justify-content: center;
+	padding-top:10px;
+}
+.edupic
+{
+	height:280px;
+	width:500px;
+	justify-content: center;
+}
+.edupic:hover
+{
+	border:2px solid grey;
+	border-right:3px solid grey;
+}
+
+ul
+{
+	float:right;
+	list-style-type:none;
+	margin-top:8px;
+	padding-top:10px;
+}
+ul li
+{
+	display:inline-block;
+}
+ul li a
+{
+	color:white;
+	text-decoration:none;
+	padding:5px 20px;
+	border:1px solid transparent;
+	border-radius:3px;
+	transition:1.0s ease;
+	font-size:15px;
+}
+ul li a:hover
+{
+	color:black;
+	background-color:white;
+}
+.fot
+{
+	font-size:13px;
+	text-align: center;
+	line-height:30px;
+	padding-top:10px;
+}
+.foot
+{
+	background-color:#777179;
+	color:#FEFDFE;
+	background:flex;
+	background-size:cover;
+	background-position:center;
+}
+.item active
+{
+	background-size:cover;
+	background-position:center;
+	justify-content: center;
+}
+.col-lg-12 {
+    width: 100%;
+	text-align:center;
+	font-family:sans-serif;
+	color: #999999;
+}
+.h2
+{
+	
+	margin-bottom: 0;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height:1;
+	font-size:30px;
+}
+.par
+{
+	text-align:center;
+	font-family:sans-serif;
+	color: #999999;
+}
+.sp
+{
+	color:orange;
+	font-weight:bold;
+}
+.spn
+{
+	color:#3D54A3;
+	font-weight:bold;
+}
+
