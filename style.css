@@ -36,16 +36,9 @@ header
     justify-content: center;
 	padding-top:10px;
 }
-.edupic
+.heading
 {
-	height:280px;
-	width:500px;
-	justify-content: center;
-}
-.edupic:hover
-{
-	border:2px solid grey;
-	border-right:3px solid grey;
+	text-align:center;
 }
 
 ul
@@ -63,7 +56,7 @@ ul li a
 {
 	color:white;
 	text-decoration:none;
-	padding:5px 20px;
+	padding:3px 10px;
 	border:1px solid transparent;
 	border-radius:3px;
 	transition:1.0s ease;
@@ -74,6 +67,19 @@ ul li a:hover
 	color:black;
 	background-color:white;
 }
+.edupic
+{
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url('photo/comp1.jpg');
+	height:300px;
+	background-size:cover;
+	background-position:center;
+}
+.edupic:hover
+{
+	border:2px solid grey;
+	border-right:3px solid grey;
+}
+
 .fot
 {
 	font-size:13px;
@@ -110,12 +116,18 @@ ul li a:hover
 	letter-spacing: 2px;
 	line-height:1;
 	font-size:30px;
+	text-align:justify;
 }
 .par
 {
-	text-align:center;
+	text-align:justify;
 	font-family:sans-serif;
 	color: #999999;
+}
+.sp1
+{
+	font-weight:bold;
+	color:orange;
 }
 .sp
 {
@@ -127,4 +139,19 @@ ul li a:hover
 	color:#3D54A3;
 	font-weight:bold;
 }
-
+.secimg
+{
+	height:150px;
+	width:100%;
+	border-radius:5px;
+	display: block;
+	position: relative;
+	background-size:cover;
+	background-position:center;
+}
+.rcol
+{
+	border:2px solid grey;
+	border-radius:10px;
+	
+}
