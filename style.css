@@ -15,7 +15,7 @@ header
 }
 .cmd6
 {
-	Float:right;
+	float:right;
 }
 .head
 {
@@ -46,6 +46,7 @@ header
 {
 	color:#0486FF;
 }
+
 ul
 {
 	float:right;
@@ -61,7 +62,7 @@ ul li a
 {
 	color:white;
 	text-decoration:none;
-	padding:3px 5px 3px 10px;
+	padding:3px 5px 3px 5px;
 	border:1px solid transparent;
 	border-radius:3px;
 	transition:1.0s ease;
@@ -177,18 +178,4 @@ ul li a:hover
 {
 	border:4px solid #EEEEEF;
 }
-	
-
-transform:rotate(15deg) translateX(46%);
-.FeedSection__feed-image {
-
-    background: url(/assets/img/logged-out-landing/articles_grid-25ead1a24d0a31507697d36840857a4e.png) repeat-y;
-    background-size: auto;
-    background-size: 50% auto;
-    height: 250%;
-    width: 100%;
-    position: absolute;
-    transform: rotate(15deg) translateX(46%);
-    animation: animation-number__1 50s linear infinite;
-	https://mix.com/
 	
