@@ -34,13 +34,46 @@ Computer Education
 		</div>
 	</div>
 </header>
+<div class="container">
+	<div class="row">
+			<div class="col-md-4 inc">
+			<p class="incp">Visitors</p>
+			<div id="incrementCount" onclick="localStorage.setItem()">
+			</br>	<!-- <img class="picinc" src="photo/picinc.jpg">  -->
+		</div>
+		</div>
+		<div class="col-md-4 inc">
+			Today
+			</br>	
+			<!-- Date Counter -->
+			<script type="text/javascript">
+			document.writeln("Date:- "+Date());
+			</script>
+
+		</div>
+		<div class="col-md-4 inc">
+			On going Projects</br>
+			<script type="text/javascript">
+			function msg(){
+				setTimeout(
+					function(){
+						alert("Welcome to the world of Computer")
+					},1000);
+						}
+			</script>
+			<input type="button" value="Click Me!" onclick="msg()"/>
+
+		</div>
+	</div>
+</div>
+<hr>
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-lg-12 text-into">
 			<h2> Select <span class="sp">Your</span> Course</h2>
 			<h4> All done as per your Choice</h4>
 			</div>
-		</div>
+		</div>                                                                                                                                                                                                                                           
 	</div>
 <hr>
 <section>
@@ -58,6 +91,25 @@ Computer Education
 		<div class="col-md-6 col-xs-12 col-sm-12 edupic">
 			<!--<img class="edupic" src="photo/comp1.jpg">-->
 		</div>
+	</div>
+</section>
+<hr>
+<section>
+    <div class="container md">
+				<div class="col-md-6 col-xs-12 col-sm-12 edupic1">
+				<video id="edupic1" muted="muted" autoplay="" src="video/video.mp4" width="100%"; height="300px";>
+				</video>
+				</div>
+        <div class="col-md-6 col-xs-12 col-sm-12 ">
+            <h2 class="heading">Computer  <span class="sp">Education</span></h2>
+            <p class="par">Computer education means gaining basic knowledge and skills to operate computers in order to perform desired jobs.
+			.A computer is an electronic machine which can be used to solve a problem or perform a certain function according to 
+			the instructions given to it. Computer education is the process of learning about or 
+			teaching about the computers. It includes the basic knowledge of computer system, skills, ideas, and the basic terminologies related
+			to the computer system. It also includes the advantages and disadvantages of computers, the potential of a computer system, how a 
+			computer can be used to solve different problems of day to day life or how can a computer be programmed to solve the extreme problem.
+			Computer education has become an integral part of the twenty-first century. It has gained a lot of importance in today’s life. Therefore, it has become necessary to learn about computers.</p>
+        </div>
 	</div>
 </section>
 <section>
@@ -187,10 +239,27 @@ Computer Education
 		</div>
 	</div>
 </footer>
+</br>
+<!-- Random Number like OTP -->
+<script type="text/javascript">
+	var num=4;
+	function randomNumber(){
+	return Math.random( )*1000000;
+}
+	document.writeln("The Captch Code is :"+Math.floor(randomNumber()));
+// on load counter/Increment Counter //
+var flg = localStorage.getItem('on_load_counter');
 
-<script>
+    if (flg===null) {
+        flg = 0;
+    }
+    flg++;
+    localStorage.setItem("on_load_counter", flg);
+    document.getElementById('incrementCount').innerHTML = flg
+</script>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animations/2.1/js/appear.min.js"></script>
 </script>
